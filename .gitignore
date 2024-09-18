@@ -3,3 +3,19 @@
 .RData
 .Ruserdata
 *.Rproj
+
+AppData/
+*.log
+*.tmp
+*.lst
+
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Templates/
+「开始」菜单/
