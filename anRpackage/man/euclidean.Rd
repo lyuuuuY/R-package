@@ -2,7 +2,7 @@
 % Please edit documentation in R/euclidean.R
 \name{euclidean}
 \alias{euclidean}
-\title{Title euclidean}
+\title{Title euclidean 123}
 \usage{
 euclidean(x, y)
 }
@@ -15,7 +15,7 @@ euclidean(x, y)
 r_2
 }
 \description{
-Title euclidean
+Title euclidean 123
 }
 \examples{
 euclidean(123612,13892347912)

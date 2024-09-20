@@ -1,4 +1,4 @@
-#' Title euclidean
+#' Title euclidean 123
 #'
 #' @param x 
 #' @param y 
