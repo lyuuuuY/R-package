@@ -1,18 +1,17 @@
-anRpackage
-================
+---
+title: "anRpackage"
+output: github_document
+---
 
 # Introduction
 
 This package provides two primary functions:
 
-1.  `euclidean()`: A function that implements the Euclidean algorithm to
-    find the greatest common divisor (GCD) of two integers.
-2.  `dijkstra()`: A function that uses Dijkstra’s algorithm to compute
-    the shortest paths from a source node to all other nodes in a given
-    graph.
+1. `euclidean()`: A function that implements the Euclidean algorithm to find the greatest common divisor (GCD) of two integers.
+2. `dijkstra()`: A function that uses Dijkstra's algorithm to compute the shortest paths from a source node to all other nodes in a given graph.
 
-This document provides instructions on how to install and use these
-functions.
+This document provides instructions on how to install and use these functions.
+
 
 # anRpackage
 
@@ -22,14 +21,11 @@ functions.
 
 <!-- badges: end -->
 
-The goal of anRpackage is to find the greatest common divisor of two
-numbers and the shortest path in the graph by using euclidean and
-dijkstra algorithms.
+The goal of anRpackage is to find the greatest common divisor of two numbers and the shortest path in the graph by using euclidean and dijkstra algorithms.
 
 ## Installation
 
-You can install the development version of anRpackage from
-[GitHub](https://github.com/lyuuuuY/R-package.git/) with:
+You can install the development version of anRpackage from [GitHub](https://github.com/lyuuuuY/R-package.git/) with:
 
 ``` r
 # install.packages("anRpackage")
