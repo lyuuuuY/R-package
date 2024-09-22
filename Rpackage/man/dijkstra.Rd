@@ -7,19 +7,19 @@
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{graph}{A data.frame with three variables\code{v1},\code{v2}and \code{w}.
-*\code{v1},\code{V2}:A pair of nodes in the graph.
-*\code{w}:The weight of the edge from v1 to v2.}
+\item{graph}{A data.frame with three variables`v1`,`v2`and `w`.
+*`v1`,`V2`:A pair of nodes in the graph.
+*`w`:The weight of the edge from v1 to v2.}
 
 \item{init_node}{A numeric scalar that exist in the graph.}
 }
 \value{
-new_dist A vector that shows the shortest path to every other node
-from the staring point.
+new_dist A vector that shows the shortest path to every other node 
+  from the staring point.
 }
 \description{
 The function uses Dijkstras algorithm to Calculate the shortest path from
-the initial node to every node in the graph.
+  the initial node to every node in the graph.
 }
 \examples{
   wiki_graph <- data.frame(
@@ -31,6 +31,6 @@ the initial node to every node in the graph.
 
 }
 \seealso{
-\link[=https://en.wikipedia.org/wiki/Dijkstra's_algorithm]{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}for more
-information about Dijkstras algorithm.
+[https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm]for more 
+  information about Dijkstras algorithm.
 }
