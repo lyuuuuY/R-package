@@ -20,6 +20,6 @@ The function uses Euclidean algorithm to find the greatest common divisor
 euclidean(123612,13892347912)
 }
 \seealso{
-[https://en.wikipedia.org/wiki/Euclidean_algorithm]for more 
+\url{https://en.wikipedia.org/wiki/Euclidean_algorithm} for more 
   information about Euclidean algorithm.
 }

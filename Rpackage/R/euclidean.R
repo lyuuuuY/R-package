@@ -9,13 +9,24 @@
 #' 
 #' @export
 #'
-#' @seealso [https://en.wikipedia.org/wiki/Euclidean_algorithm]for more 
+#' @seealso  \url{https://en.wikipedia.org/wiki/Euclidean_algorithm} for more 
 #'   information about Euclidean algorithm.
 #'   
 #' @examples euclidean(123612,13892347912)
 euclidean <- function(x,y){
-  stopifnot(is.numeric(x), length(x) == 1, x >= 0)
-  stopifnot(is.numeric(y), length(y) == 1, y >= 0)
+  x <- abs(x) 
+  y <- abs(y)
+  stopifnot(is.numeric(x), length(x) == 1 )
+  stopifnot(is.numeric(y), length(y) == 1 )
+  if (x == 0 && y == 0) { 
+    stop("non-numeric argument") 
+    }
+  if (x == 0) {
+    return(y) 
+  }
+  if (y == 0){ 
+    return(x)
+  }
   if(x>=y){
     r_1 <- x
     r_2 <- y
@@ -35,3 +46,4 @@ euclidean <- function(x,y){
   }
   return(r_2)
 }
+

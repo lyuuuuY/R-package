@@ -8,7 +8,8 @@ dijkstra(graph, init_node)
 }
 \arguments{
 \item{graph}{A data.frame with three variables`v1`,`v2`and `w`.
-*`v1`,`V2`:A pair of nodes in the graph.
+*`v1`:Starting node of the edge .
+*`V2`:Ending node of the edge .
 *`w`:The weight of the edge from v1 to v2.}
 
 \item{init_node}{A numeric scalar that exist in the graph.}
