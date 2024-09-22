@@ -13,7 +13,9 @@ Authors@R:
     person('Yi','Yang',role='aut')       
     )
 Maintainer: Yanjie Lyu <yanly639@student.liu.se>
-Description: More about what it does (maybe more than one line).
+Description: This package provides two primary functions. 
+    1. 'euclidean()' implements the Euclidean algorithm to find the greatest common divisor (GCD) of two integers.
+    2. 'dijkstra()' uses Dijkstra's algorithm to compute the shortest paths from a source node to all other nodes in a given graph.
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.3.2
