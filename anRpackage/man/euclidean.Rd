@@ -2,21 +2,24 @@
 % Please edit documentation in R/euclidean.R
 \name{euclidean}
 \alias{euclidean}
-\title{Title euclidean}
+\title{Calculate the greatest common divisor of two numbers}
 \usage{
 euclidean(x, y)
 }
 \arguments{
-\item{x}{}
-
-\item{y}{}
+\item{x, y}{A pair of input integers.}
 }
 \value{
-r_2
+r_2 The greatest common divisor of two numbers.
 }
 \description{
-Title euclidean
+The function uses Euclidean algorithm to find the greatest common divisor 
+  of two numbers.
 }
 \examples{
 euclidean(123612,13892347912)
+}
+\seealso{
+[https://en.wikipedia.org/wiki/Euclidean_algorithm]for more 
+  information about Euclidean algorithm.
 }

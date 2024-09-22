@@ -1,13 +1,20 @@
-#' Title euclidean
-#'
-#' @param x 
-#' @param y 
-#'
-#' @return r_2
+#' Calculate the greatest common divisor of two numbers
+#' 
+#'   The function uses Euclidean algorithm to find the greatest common divisor 
+#'   of two numbers.
+#'   
+#' @param x,y A pair of input integers.
+#' 
+#' @return r_2 The greatest common divisor of two numbers.
+#' 
 #' @export
 #'
+#' @seealso [https://en.wikipedia.org/wiki/Euclidean_algorithm]for more 
+#'   information about Euclidean algorithm.
+#'   
 #' @examples euclidean(123612,13892347912)
 euclidean <- function(x,y){
+  stopifnot(is.integer(x),is.integer(y))
   if(x>=y){
     r_1 <- x
     r_2 <- y

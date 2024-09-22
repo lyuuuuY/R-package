@@ -1,11 +1,20 @@
-Package: euclidean
+Package: euclideantools
 Type: Package
-Title: What the Package Does (Short Line)
+Title: Find the greatest common divisor of two numbers and the shortest path 
+    in the graph
 Version: 1.0
 Date: 2024-09-18
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Authors@R: 
+    c(
+    person(given="Yanjie",
+           family="Lyu",
+           role=c("aut","cre"),
+           email="yanly639@student.liu.se"),
+    person('Yi','Yang',role='aut')       
+    )
+Maintainer: Yanjie Lyu <yanly639@student.liu.se>
 Description: More about what it does (maybe more than one line).
-License: What license is it under?
+License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.3.2
+imports:
