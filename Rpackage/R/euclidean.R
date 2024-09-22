@@ -14,7 +14,8 @@
 #'   
 #' @examples euclidean(123612,13892347912)
 euclidean <- function(x,y){
-  stopifnot(is.integer(x),is.integer(y))
+  stopifnot(is.numeric(x), length(x) == 1, x >= 0)
+  stopifnot(is.numeric(y), length(y) == 1, y >= 0)
   if(x>=y){
     r_1 <- x
     r_2 <- y

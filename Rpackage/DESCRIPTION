@@ -1,4 +1,4 @@
-Package: euclideantools
+Package: anRpackage
 Type: Package
 Title: Find the greatest common divisor of two numbers and the shortest path 
     in the graph
@@ -17,4 +17,4 @@ Description: More about what it does (maybe more than one line).
 License: GPL-3
 Encoding: UTF-8
 RoxygenNote: 7.3.2
-imports:
+
