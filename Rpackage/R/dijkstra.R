@@ -4,7 +4,8 @@
 #'   the initial node to every node in the graph.
 #'   
 #' @param graph A data.frame with three variables`v1`,`v2`and `w`.
-#'   *`v1`,`V2`:A pair of nodes in the graph.
+#'   *`v1`:Starting node of the edge .
+#'   *`V2`:Ending node of the edge .
 #'   *`w`:The weight of the edge from v1 to v2.
 #' @param init_node A numeric scalar that exist in the graph.
 #'
@@ -32,6 +33,9 @@ function(graph,init_node){
   if (ncol(graph) != 3) { 
     stop("graph must have 3 columns") 
   }
+  if (!all(c("v1", "v2", "w") %in% names(graph))) { 
+    stop("graph must have columns v1, v2, and w") 
+    }
   stopifnot(is.numeric(init_node), init_node %in% graph[,1])
   nodes <- unique(c(graph[,1]))
   dist <- rep(Inf, length(nodes))
@@ -60,6 +64,6 @@ function(graph,init_node){
     new_dist <- try_dist
     visited[new_node] <- TRUE
   }
-  return(new_dist)
+  return(as.numeric(unname(new_dist)))
 }
 
